@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.navbar-left{
+    padding-left: 20px;
+}
+
+.logo{
+    height : 200px;
+}
+
+.navbar-right{
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.a-element{
+    padding: 10px;
+    margin : 5px;
+    cursor: pointer;
+    border : none;
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style:oblique;
+}
+.a-element:hover{
+    background-color: rgb(15, 14, 14);
+    color: white;
+}
+.a-element:active{
+    background-color: rgb(15, 14, 14);
+    color: white;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height : 85vh;
+}
+
+.home-left{
+    width: 50vw;
+    text-align:right;
+    padding-left: 200px;
+}
+
+.home-right{
+    width: 50vw;
+    padding-left: 100px;
+}
+
+.home-p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 19px;
+    text-align: justify;
+}
+
+.typewriter {
+  color: #c5ff06;
+  font-size: 2;
+  font-family: 'Courier New', monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #00ffcc;
+  width: 0;
+  animation: typingLoop 4s infinite;
+}
+
+@keyframes typingLoop {
+  0% {
+    width: 0ch;
+    border-right-color: #00ffcc;
+  }
+  50% {
+    width: 9ch;
+    border-right-color: #00ffcc;
+  }
+  51% {
+    border-right-color: transparent;
+  }
+  100% {
+    width: 0ch;
+    border-right-color: transparent;
+  }
+}
+
+.Skills{
+    padding: 50px;
+    text-align: center;
+}
+
+.ski-h1{
+    font-family: 'Cascadia Code', monospace;
+    color:white;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+
+.Skills-sub-count{
+    display: flex;
+    flex-direction: row;
+}
+
+.Skills-card{
+    background-color: rgb(15, 14, 14);
+    color: white;
+    padding: 60px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.sc-h1{
+    font-family: 'Ubuntu Mono', monospace;
+    color: rgb(59,211,59);
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+.sc-p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: black
+}
+
+.Skills-card:hover{
+    background-color: white;
+    color: black;
+}
+.Skills-card:active{
+    background-color: white;
+    color: black;
+}
+
+.contact-info{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: white
+}
+
+.contact-info a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    color: #00ffcc;
+    text-decoration: underline;
+}
